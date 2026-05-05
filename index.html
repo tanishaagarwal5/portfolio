@@ -9,66 +9,95 @@
 <body>
   <header class="site-header">
     <a class="brand" href="index.html">Tanisha Agarwal</a>
-    <nav class="nav">
-      <a href="index.html">Home</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html" class="active">Home</a>
       <a href="projects.html">Projects</a>
       <a href="experience.html">Experience</a>
       <a href="contact.html">Contact</a>
-      <a class="nav-cta" href="Tanisha_Agarwal_Resume.pdf" target="_blank">Resume</a>
+      <a class="resume-link" href="Tanisha_Agarwal_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero section-wrap">
       <div class="hero-copy">
-        <p class="eyebrow">Analytics • Strategy • AI Workflows</p>
-        <h1>Turning business problems into data-backed decisions.</h1>
-        <p class="lead">I’m a Duke MQM candidate focused on business analytics and strategy, with experience building forecasting models, executive dashboards, automation systems, and consulting-style recommendations.</p>
+        <p class="eyebrow">Business Analytics · Strategy · AI Workflows</p>
+        <h1>Turning complex data into practical business decisions.</h1>
+        <p class="hero-text">
+          I’m a Duke MQM candidate and Business Analyst with experience across revenue retention, forecasting,
+          dashboarding, market analysis, and AI-native workflow automation.
+        </p>
         <div class="hero-actions">
-          <a class="button primary" href="projects.html">View Projects</a>
-          <a class="button secondary" href="Tanisha_Agarwal_Resume.pdf" target="_blank">Download Resume</a>
+          <a class="btn primary" href="projects.html">View Projects</a>
+          <a class="btn secondary" href="Tanisha_Agarwal_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
         </div>
       </div>
-      <div class="hero-card">
-        <img src="profile.jpg" alt="Tanisha Agarwal" class="profile-pic" />
-        <div>
-          <h2>Tanisha Agarwal</h2>
-          <p>MS Quantitative Management, Duke Fuqua</p>
+      <aside class="profile-card" aria-label="Profile card">
+        <img class="profile-pic" src="profile.jpg" alt="Tanisha Agarwal profile photo" />
+        <h2>Tanisha Agarwal</h2>
+        <p>Duke MQM · Business Analytics & Strategy</p>
+        <div class="mini-tags">
+          <span>Python</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>ML</span>
         </div>
-      </div>
+      </aside>
     </section>
 
-    <section class="metrics">
-      <div><span>$1.4M</span><p>revenue retained through renewal tracking</p></div>
-      <div><span>5+</span><p>market verticals analyzed for expansion strategy</p></div>
-      <div><span>57K</span><p>images classified using CNN + ResNet-18</p></div>
-      <div><span>20+</span><p>data sources consolidated for research reports</p></div>
+    <section class="stats section-wrap compact">
+      <article><strong>$1.4M</strong><span>Revenue retained through contract renewal analytics</span></article>
+      <article><strong>5+</strong><span>Market verticals analyzed for portfolio expansion</span></article>
+      <article><strong>57K</strong><span>Images classified using CNN and ResNet-18 models</span></article>
+      <article><strong>May 2026</strong><span>MS in Quantitative Management, Duke Fuqua</span></article>
     </section>
 
-    <section class="section two-column">
+    <section class="section-wrap two-col">
       <div>
-        <p class="eyebrow">What I do</p>
-        <h2>Consulting-style analytics with technical depth.</h2>
+        <p class="eyebrow">About</p>
+        <h2 class="section-title">Analytics with a consulting mindset.</h2>
       </div>
-      <div class="stacked-list">
-        <div><h3>Business Analytics</h3><p>Translate messy data into dashboards, forecasts, and decision-ready insights.</p></div>
-        <div><h3>Strategy & Market Research</h3><p>Frame business problems, evaluate opportunities, and communicate recommendations to stakeholders.</p></div>
-        <div><h3>AI & Automation</h3><p>Design agentic workflows and low-code automations that reduce manual work and improve speed.</p></div>
+      <div class="body-copy">
+        <p>
+          My work sits at the intersection of analytics, operations, and strategy. I have built executive dashboards,
+          automated reporting ecosystems, created forecasting models, redesigned business workflows, and translated
+          technical findings into stakeholder-ready recommendations.
+        </p>
+        <p>
+          I’m especially interested in roles where data can directly improve commercial decisions, customer strategy,
+          operational efficiency, and AI-enabled business processes.
+        </p>
       </div>
     </section>
 
-    <section class="section featured">
-      <div class="section-heading">
-        <p class="eyebrow">Featured work</p>
-        <h2>Selected projects</h2>
-        <a href="projects.html">See all projects →</a>
+    <section class="section-wrap">
+      <div class="section-heading-row">
+        <div>
+          <p class="eyebrow">Featured Work</p>
+          <h2 class="section-title">Selected projects</h2>
+        </div>
+        <a class="text-link" href="projects.html">See all projects →</a>
       </div>
-      <div class="card-grid">
-        <article class="card"><p class="tag">Consulting / Pricing</p><h3>NAPA Capstone</h3><p>Built RFM segmentation and churn models to inform a tiered pricing playbook for executive stakeholders.</p></article>
-        <article class="card"><p class="tag">GenAI / Automation</p><h3>Contract Renewal Agent</h3><p>Designed a multi-agent workflow to extract renewal terms, score churn risk, and draft stakeholder outreach.</p></article>
-        <article class="card"><p class="tag">Public Sector Analytics</p><h3>Public Safety Demand</h3><p>Analyzed police, fire, construction, and traffic patterns to guide district-level resource allocation.</p></article>
+      <div class="card-grid three">
+        <article class="project-card">
+          <span class="pill">Pricing Strategy</span>
+          <h3>NAPA Capstone</h3>
+          <p>Led a 5-person consulting engagement, developing RFM segmentation and churn models for pricing leadership.</p>
+        </article>
+        <article class="project-card">
+          <span class="pill">Agentic AI</span>
+          <h3>Contract Renewal Automation</h3>
+          <p>Built a multi-agent MVP to process contracts, extract renewal terms, score churn risk, and draft outreach.</p>
+        </article>
+        <article class="project-card">
+          <span class="pill">Public Sector Analytics</span>
+          <h3>Public Safety Demand Analysis</h3>
+          <p>Analyzed police, fire, construction, and traffic data to guide district-level resource allocation.</p>
+        </article>
       </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <span>© Tanisha Agarwal</span>
+    <span>Analytics · Strategy · AI Workflows</span>
+  </footer>
 </body>
 </html>
