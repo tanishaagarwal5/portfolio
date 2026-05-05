@@ -1,29 +1,18 @@
 # Tanisha Agarwal Portfolio
 
-This is my personal portfolio website showcasing my experience, projects, and background in analytics and strategy.
+A standout, recruiter-ready personal portfolio for analytics, strategy, and AI workflow roles.
 
-## 🔗 Sections
-- Home
-- Projects
-- Experience
-- Contact
-- Resume (PDF included)
+## Included
+- `index.html` — homepage
+- `projects.html` — selected projects
+- `experience.html` — work experience
+- `contact.html` — contact details
+- `style.css` — site styling
+- `profile.jpg` — profile image
+- `Tanisha_Agarwal_Resume.pdf` — resume
 
-## 🚀 How to Use
-1. Download or clone the repository
-2. Add your profile image as `profile.jpg`
-3. Open `index.html` in your browser OR deploy on GitHub Pages
-
-## 📌 Deployment (GitHub Pages)
-1. Go to your repository
-2. Click Settings → Pages
-3. Select branch: main
-4. Save → Your site will be live
-
-## 📄 Resume
-Click the Resume link in the navigation bar to view/download.
-
-## 🛠 Tech Used
-- HTML
-- CSS
-
+## Deploy on GitHub Pages
+1. Upload all files to your GitHub repository.
+2. Go to **Settings > Pages**.
+3. Under **Build and deployment**, select your `main` branch.
+4. Save and wait for GitHub to publish the site.
